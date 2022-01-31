@@ -8,7 +8,7 @@ public class Demo {
 Object shapes[]={new Circle(2),new Square(4), new Square(6),new Cube(2)};
         AreaCalculator areacalculator=new AreaCalculator(shapes);
        // areacalculator.output();
-      SumCalculatorOutputter sumCalculatorOutputter= new SumCalculatorOutputter(new AreaCalculator(shapes));
+      SumCalculatorOutputter sumCalculatorOutputter= new SumCalculatorOutputter(new VolumeCalculator(shapes));
     sumCalculatorOutputter.addResultInJASON();
     sumCalculatorOutputter.addResultInHTML();
     }

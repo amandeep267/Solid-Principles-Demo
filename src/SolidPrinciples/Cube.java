@@ -1,6 +1,6 @@
 package SolidPrinciples;
 
-public class Cube implements ShapeInterface,ThreeDimnesionalShapeInterface{
+public class Cube implements ThreeDimnesionalShapeInterface{
 float side;
         Cube(float side)
         {

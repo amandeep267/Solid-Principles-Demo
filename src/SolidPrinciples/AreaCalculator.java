@@ -3,6 +3,7 @@ package SolidPrinciples;
 public class AreaCalculator {
     protected Object shapes[];
     AreaCalculator(Object shapes[])
+
     {
         this.shapes=shapes;
     }

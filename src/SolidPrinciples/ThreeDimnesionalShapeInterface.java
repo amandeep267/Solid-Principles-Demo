@@ -1,5 +1,5 @@
 package SolidPrinciples;
 //interface seggregation
-public interface ThreeDimnesionalShapeInterface {
+public interface ThreeDimnesionalShapeInterface extends ShapeInterface {
     float volume();
 }
