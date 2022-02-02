@@ -20,9 +20,6 @@ public class AreaCalculator {
         }
         return sum;}
 
-//        public void output()
-//        {
-//            System.out.println(sum());
-//        }
+
 
 }

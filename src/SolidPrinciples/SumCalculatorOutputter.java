@@ -2,7 +2,9 @@ package SolidPrinciples;
 //dependency inversion
 public class SumCalculatorOutputter {
     protected AreaCalculator areaCalculator;
+
     SumCalculatorOutputter(AreaCalculator areaCalculator)
+
     {
         this.areaCalculator=areaCalculator;
     }

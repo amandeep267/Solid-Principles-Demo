@@ -9,8 +9,8 @@ public class AreaCalculator {
     {
         this.shapes=shapes;
     }
-    public float  sum()
-    {
+
+    public float  sum(){
         float sum=0;
 
         for(int i=0;i<shapes.length;i++)
@@ -24,6 +24,7 @@ public class AreaCalculator {
     }
 
         public void output()
+
         {
             System.out.println(sum());
         }
